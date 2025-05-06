@@ -26,7 +26,7 @@ To add an external libray as dependency simply edit the `conanfile.txt` file, an
 
 - Now build the project with:
     - Linux/macOS: `cmake --build build`
-    - Windows `cmake --build --preset msvc --config Release`. Change `Release` to `Debug` if you need a debug build.
+    - Windows `cmake --build build --config Release`. Change `Release` to `Debug` if you need a debug build.
 
 ## Code and Debug with VSCode/VSCodium
 
