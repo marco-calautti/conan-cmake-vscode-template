@@ -18,7 +18,7 @@ To add an external libray as dependency simply edit the `conanfile.txt` file, an
 - There are different CMake presets, depending on the OS and tooling used:
     - Linux/macOS with Ninja: `debug-ninja` and `release-ninja` 
     - Linux/macOS with make: `debug-makefiles` and `release-makefiles`
-    - Windows: `msvc`. Whether it is a release or debug build will be specified at build type.
+    - Windows: `msvc`. Whether it is a release or debug build will be specified at build time.
 
 - Configure the desired preset with `cmake --preset <preset-name>`.
 
