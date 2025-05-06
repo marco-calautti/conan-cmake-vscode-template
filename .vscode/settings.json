@@ -1,0 +1,18 @@
+{    
+    //Tell the CMake Tools extension to configure and build the project using the CMake presets 
+    "cmake.useCMakePresets": "always",
+
+    // Tell the CMake Tools extensions to use lldb as debugger
+    "cmake.debugConfig": {
+        "type": "lldb",
+    },
+
+    //Tell the CMake Tools extension to generate the "compile_commands.json" file during configuration.
+    // This is required by the ccls language server to find all include files
+    "cmake.configureEnvironment": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "1",    
+    },
+
+    // Tell the ccls language server where to find the compile_commands.json file
+    "ccls.misc.compilationDatabaseDirectory": "${workspaceFolder}/build",
+}
