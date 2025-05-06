@@ -9,7 +9,7 @@ To add an external libray as dependency simply edit the `conanfile.txt` file, an
 
 ## How to compile your project
 
-- You need at least a compiler (e.g., g++), cmake, conan2 (for resolving dependencies), and a build system, such as Ninja or make. On Windows, Visual Studio (not Code) acts as both a compiler and build system).
+- You need at least a compiler (e.g., g++), cmake, conan2 (for resolving dependencies), and a build system, such as Ninja or make. On Windows, Visual Studio (not Code) acts as both a compiler and build system.
 
 - Clone the repository recursively with:
 
