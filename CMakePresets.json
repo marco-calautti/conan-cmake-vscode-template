@@ -52,7 +52,7 @@
             "inherits": "base",
             "displayName": "Release (Unix Makefiles)",
             "description": "Use this preset for a release build using Makefiles",
-            "generator": "NiUnix Makefilesnja",
+            "generator": "Unix Makefiles",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": "Release"
             }
