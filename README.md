@@ -35,7 +35,7 @@ To add an external libray as dependency simply edit the `conanfile.txt` file, an
 - If you want to use VSCodium, you instead need the extensions `ccls`, `CMake Tools`, and `CodeLLDB`, and have the `ccls` language server installed on your system. Then, for enabling intellisense and debugging using VSCodium with the above extensions, you need to configure the `CMake Tools` extensions and the `ccls` extension: this is done in the provided `settings.json` in the `.vscode` directory. If using VSCode, you don't need any special configuration and you can remove the .vscode directory.
 
 - To debug run the following VSCode/Codium commands:
-    - `CMake Select Configure Preset` and choose the debug preset
+    - `CMake Select Configure Preset` and choose the debug preset. On Windows, simply choose the `msvc` preset and then select the `Debug` variant with the command `CMake: Select Variant`.
     - `CMake Configure`
     - `CMake Build`
     - `CMake Debug`
