@@ -16,6 +16,6 @@
     // Tell the ccls language server where to find the compile_commands.json file
     // and also keep colors for semantic highlighting at a sane level.
     "ccls.launch.args": [
-        "--init={\"compilationDatabaseDirectory\":\"${workspaceFolder}/build\",\"highlight\":{\"rainbow\":1}}"
+        "--init={\"compilationDatabaseDirectory\":\"${workspaceFolder}/build\",\"highlight\":{\"rainbow\":0}}"
     ],
 }
