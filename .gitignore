@@ -1,4 +1,4 @@
 build/
 .ccls-cache/
 .cache/
-.conan
+.conan/
