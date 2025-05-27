@@ -11,7 +11,7 @@
             "hidden": true,
             "binaryDir": "${sourceDir}/build",
             "environment": {
-                "CONAN_HOME": "${sourceDir}/.conan"
+                "CONAN_HOME": "${sourceDir}/conan_home"
             },
             "cacheVariables": {
                 "CMAKE_PROJECT_TOP_LEVEL_INCLUDES": "${sourceDir}/cmake-conan/conan_provider.cmake"
