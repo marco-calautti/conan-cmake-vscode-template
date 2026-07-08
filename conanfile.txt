@@ -5,4 +5,4 @@ fmt/11.1.4
 *:shared=False
 
 [generators]
-CMakeDeps
+CMakeConfigDeps
