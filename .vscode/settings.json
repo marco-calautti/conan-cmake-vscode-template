@@ -18,4 +18,12 @@
     "ccls.launch.args": [
         "--init={\"compilationDatabaseDirectory\":\"${workspaceFolder}/build\",\"highlight\":{\"rainbow\":0}}"
     ],
+
+    // Disable references and usage information
+    "ccls.codeLens.enabled": false,
+
+    // Disable semantic highlighting. It is very distracting
+    "[c][cpp]": {
+        "editor.semanticHighlighting.enabled": false
+    }
 }
